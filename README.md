@@ -6,6 +6,7 @@
 
 # for converting Linux Minmal GUI 
  * yum update -y
+ * dnf install gdm -y 
  * dnf groupinstall "Server with GUI" -y
 # to set default GUI Run Level
  * systemctl set-default graphical.target
